@@ -89,13 +89,15 @@ class ArrayList:
         rst += '\b]'
         return rst
 
-arrayList = ArrayList(10)
+arrayList = ArrayList(3)
 print(arrayList.print())
 arrayList.append(10)
 print(arrayList.print())
 arrayList.append(20)
 print(arrayList.print())
 arrayList.append(30)
+print(arrayList.print())
+arrayList.insert(1, 5)
 print(arrayList.print())
 arrayList.append(40)
 print(arrayList.print())
