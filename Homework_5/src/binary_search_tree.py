@@ -158,7 +158,6 @@ class BinarySearchTree:
                         parent.right = second_node
             else:
                 second_parent.left = second_node.right if second_node.right else None
-                print('[*]' + str(second_parent.value))
                 second_node.left = node.left
                 second_node.right = node.right
                 if parent is None:
