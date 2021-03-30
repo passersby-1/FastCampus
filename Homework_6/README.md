@@ -1,4 +1,4 @@
-# HOMEWORK #1
+# HOMEWORK #6
 
 ### 1. Level 2 Complete
 <img src="img/level2.png" width="800px" />
